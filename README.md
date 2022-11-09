@@ -12,3 +12,18 @@ forms but also give the students an idea about their future college by calculati
 * Build a web application using the Flask framework.
 * To grab insights from data through visualization.
 * To understand regression and classification problems
+### Dataset Overview
+* Dataset: Graduate Admissions Dataset
+* Source: Kaggle
+* Metrics: 500 rows, 9 columns</br>
+</br>
+About: The graduate studies dataset is a dataset which describes the acceptance probability of a student based on the following
+</br>parameters:
+</br>1. GRE Score (out of 340)
+</br>2. TOEFL Score (out of 120)
+</br>3. IELTS Score (out of 9)
+</br>4. University Rating (out of 5)
+</br>5. Statement of Purpose/ SOP (out of 5)
+</br>6. Letter of Recommendation/ LOR (out of 5)
+</br>7. Research Experience (either 0 or 1)
+</br>8. Chance of Admittance (ranging from 0 to 1)
