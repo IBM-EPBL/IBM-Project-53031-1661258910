@@ -33,3 +33,5 @@ This dataset was built with the purpose of helping students to shortlist univers
 </br>
 </br>
 <img src="images/image 1.png" width="800" title="hover text">
+</b>
+Architecture Diagram
