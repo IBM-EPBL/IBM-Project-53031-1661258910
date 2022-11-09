@@ -33,8 +33,8 @@ This dataset was built with the purpose of helping students to shortlist univers
 </br>
 </br>
 <img src="images/Graph.png" width="800" title="hover text">
-</b>
-Architecture Diagram
+</br>
+### Architecture Diagram
 </br>
 </br>
 <img src="images/UAEP ARCHITECTURE.png" width="800" title="hover text">
