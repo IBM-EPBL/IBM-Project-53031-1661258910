@@ -27,3 +27,6 @@ About: The graduate studies dataset is a dataset which describes the acceptance 
 </br>6. Letter of Recommendation/ LOR (out of 5)
 </br>7. Research Experience (either 0 or 1)
 </br>8. Chance of Admittance (ranging from 0 to 1)
+</br>
+</br>
+This dataset was built with the purpose of helping students to shortlist universities based on their profiles. The predicted output gives them a fair idea about their chances for a particular university. This dataset is inspired by the UCLA Graduate Dataset from Kaggle.
