@@ -32,9 +32,8 @@ About: The graduate studies dataset is a dataset which describes the acceptance 
 This dataset was built with the purpose of helping students to shortlist universities based on their profiles. The predicted output gives them a fair idea about their chances for a particular university. This dataset is inspired by the UCLA Graduate Dataset from Kaggle.
 </br>
 </br>
-<img src="images/Graph.png" width="800" title="hover text">
-</br>
-### Architecture Diagram
+<img src="images/Graph.png" width="800" title="hover text"></br>
+Architecture Diagram
 </br>
 </br>
 <img src="images/UAEP ARCHITECTURE.png" width="800" title="hover text">
