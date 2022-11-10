@@ -18,6 +18,7 @@ forms but also give the students an idea about their future college by calculati
 <li>Dataset: Graduate Admissions Dataset</li>
 <li>Source: Kaggle</li>
 <li>Metrics: 500 rows, 9 columns</li>
+</br>
 <b>About</b>: The graduate studies dataset is a dataset which describes the acceptance probability of a student based on the following
 </br>parameters:
 <ol>
