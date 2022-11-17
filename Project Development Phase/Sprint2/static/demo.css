@@ -1,0 +1,54 @@
+input[type=text], input[type=password], input[type=number] {
+  width: 50%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+.btn-btn-primary {
+  background-color:  #24a0ed;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 500px;
+  opacity: 0.9;
+}
+.btn-btn-primary:hover {
+  opacity:1;
+}
+h2 {
+  padding: 60px;
+  text-align: center;
+  background: black;
+  color: white;
+  font-size: 30px;
+  opacity: 0.4;
+}
+.row-mb-3{
+	width:48%;
+	text-align: center;
+	align-items: center
+	padding-left:100px;
+}
+form{
+  margin:0 auto;
+  width:500px;
+  
+}
+.full{
+	margin:0 auto;
+  width:500px;
+  border: #dbdbdb solid 20px;
+  padding:5px 5px 5px 5px;
+  text-align: center;
+}
+.form-check
+{
+	 width:456px;
+  padding:5px 5px 5px 5px;
+  text-align: center;
+}
