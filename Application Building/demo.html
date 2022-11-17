@@ -1,0 +1,147 @@
+
+<style>
+    input[type=text], input[type=password], input[type=number] {
+  width: 50%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+.btn-btn-primary {
+  background-color:  #24a0ed;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 500px;
+  opacity: 0.9;
+}
+.btn-btn-primary:hover {
+  opacity:1;
+}
+h2 {
+  padding: 60px;
+  text-align: center;
+  background: black;
+  color: white;
+  font-size: 30px;
+  opacity: 0.4;
+}
+.row-mb-3{
+    width:48%;
+    text-align: center;
+    align-items: center
+    padding-left:100px;
+}
+form{
+  margin:0 auto;
+  width:500px;
+  
+}
+.full{
+    margin:0 auto;
+  width:500px;
+  /*border: #dbdbdb solid 20px;*/
+  border: white solid 20px;
+  padding:5px 5px 5px 5px;
+  text-align: center;
+}
+.form-check
+{
+     width:456px;
+  padding:5px 5px 5px 5px;
+  text-align: center;
+}
+.ol-lg-2{
+    width:500px;
+}
+
+</style>
+<div class="full"
+    <div class="p-4">
+        <div class="row mb-3">
+            <div class="col-4">
+                <h2 class="text-responsive-h">
+                    University Admit Eligibility Predictor
+                </h2>
+                <h3>Enter the details and get to know your admission chances</h3>
+               
+                <div class="d-flex justify-content-right">
+                </div>
+                </div>
+            <div class="col-8">
+                <div class="card p-2 ms-2 my-2"> 
+                    <div class="card-body">
+                       <!-- <h5 class="card-title pb-4">
+                            Enter the details
+                        </h5>-->
+                        <img class="zoom" src="https://img.freepik.com/premium-vector/campus-park-graduation-happy-students-group-jumping-university-building-backdrop-certificates-hands-boys-girls-student-robes-throw-up-caps-vector-cartoon-isolated-concept_176411-4154.jpg?w=2000" width="500" height="400">
+                        <h3 align="center">Enter the details</h3>
+                        <form action="{{url_for('admin')}}" method="post" id="theForm">
+                            <div class="row mb-3">
+                                <label for="gre" class="col-lg-2 col-form-label">GRE Score:</label>
+                                <div class="col-lg-10">    
+                                    <input type="number" class="form-control" id="gre" name="gre" min="250" max="340" required>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <label for="tofel" class="col-lg-2 col-form-label">TOFEL Score:</label>
+                                <div class="col-lg-10">    
+                                    <input type="number" class="form-control" id="tofel" name="tofel" min="50" max="120" required>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <label for="university_rating" class="col-lg-2 col-form-label">University Rating:</label>
+                                <div class="col-lg-10">    
+                                    <input type="number" class="form-control" id="university_rating" step="0.01" name="university_rating" min="1" max="5" required>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <label for="sop" class="col-lg-2 col-form-label">SOP:</label>
+                                <div class="col-lg-10">    
+                                    <input type="number" class="form-control" id="sop" name="sop" step="0.01" min="1" max="5" required>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <label for="lor" class="col-lg-2 col-form-label">LOR:</label>
+                                <div class="col-lg-10">    
+                                    <input type="number" class="form-control" id="lor" name="lor" step="0.01" min="1" max="5" required>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <label for="cgpa" class="col-lg-2 col-form-label">CGPA:</label>
+                                <div class="col-lg-10">    
+                                    <input type="number" class="form-control" id="cgpa" name="cgpa" step="0.01" min="5" max="10" required>
+                                </div>
+                            </div>
+                            <fieldset class="row-mb-3">
+                                <legend class="col-form-label col-sm-2 pt-0">Research:</legend>
+                                <div class="col-sm-10">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="yes_no_radio" id="gridRadios1" value="1">
+                                        <label class="form-check-label" for="yes_no_radio">
+                                        Yes
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="yes_no_radio" id="gridRadios2" value="0" checked>
+                                        <label class="form-check-label" for="yes_no_radio">
+                                        No
+                                        </label>
+                                    </div>
+                                </div>
+                            </fieldset>
+                            <div class="row lg-3">
+                                <div class="col-lg-2 mb-2 me-3">
+                                    <button type="submit" class="btn-btn-primary" id="button">Predict</button>
+                                </div>
+                                </div>
+                        </form>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </div>
