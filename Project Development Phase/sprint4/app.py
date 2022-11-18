@@ -33,12 +33,9 @@ def admin():
     lor=(eval(request.form["lor"])-1.0)/4.0
     cgpa=(eval(request.form["cgpa"])-6.7)/(10.0-6.7)
     research=request.form["yes_no_radio"]
-    print("byeeee")
     if (research=="Yes"):
-        print("yesss")
         research=1
     else:
-        print("nooo")
         research=0
     preds=[[gre,tofl,rating,sop,lor,cgpa,research]]
     #payload_scoring = {"input_data": [{"field": [["GRE Score","TOEFL Score","University Rating","SOP","LOR","CGPA","Research"]], "values": [[gre,tofl,rating,sop,lor,cgpa,research]]}]}
