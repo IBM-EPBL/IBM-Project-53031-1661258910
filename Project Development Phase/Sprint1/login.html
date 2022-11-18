@@ -179,20 +179,7 @@ Example
   to {transform: scale(1)}
 }
 </style>
-Tip: You can also use the following javascript to close the modal by clicking outside of the modal content (and not just by using the "x" or "cancel" button to close it):
 
-Example
-<script>
-// Get the modal
-var modal = document.getElementById('id01');
-
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
-  }
-}
-</script>
 <div class="top">
 <form action="action_page.php" method="post" class="border">
   <div class="imgcontainer">
@@ -207,14 +194,9 @@ window.onclick = function(event) {
     <input type="password" placeholder="Enter Password" name="psw" required>
 
     <button type="submit">Login</button>
-   <!-- <label>
-      <input type="checkbox" checked="checked" name="remember"> Remember me
-    </label>-->
+
   </div>
 
-  <!--<div class="container" style="background-color:#f1f1f1">
-    <button type="button" class="cancelbtn">Cancel</button>-->
-   <!-- <span class="psw">Forgot <a href="#">password?</a></span>-->
   </div>
 </div>
 </form>
